@@ -1,0 +1,8 @@
+- npm init -y
+- npm i express cors dotenv
+- npm i prisma
+- npm i @primsa/client (prisma client)
+- npx prisma init
+- set database name,port,username,password
+- make model
+- npx primsa migrate dev (migrate model)
