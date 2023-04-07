@@ -2,7 +2,7 @@ import  express  from "express";
 import  cors  from "cors";
 import  dotenv  from "dotenv";
 import SiswaRoute from "./routes/SIswaRoute.js";
-
+dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json()); //can take date by json

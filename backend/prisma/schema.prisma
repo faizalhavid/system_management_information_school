@@ -16,7 +16,8 @@ model Siswa{
   name String 
   age Int
   address String
-  birth DateTime
+  birth String
   sex String
   no_parent Int
+  cretated_at DateTime @default(now())
 } 

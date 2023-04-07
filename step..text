@@ -6,3 +6,4 @@
 - set database name,port,username,password
 - make model
 - npx primsa migrate dev (migrate model)
+- npx prisma migrate dev (migrate migration)
