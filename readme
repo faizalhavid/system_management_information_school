@@ -1,15 +1,14 @@
-# Sistem Manajemen Informasi Sekolah dengan Express.js
+#Sistem Manajemen Informasi Sekolah dengan Express.js
     Sistem Manajemen Informasi Sekolah adalah sebuah proyek yang dibangun menggunakan Express.js, sebuah kerangka kerja JavaScript yang populer untuk pengembangan aplikasi web. Proyek ini bertujuan untuk menyediakan platform yang efisien dan terpusat untuk mengelola informasi sekolah, termasuk data siswa, guru, kelas, jadwal pelajaran, dan lainnya.
 
-## Fitur
-    Sistem Manajemen Informasi Sekolah ini dilengkapi dengan fitur-fitur berikut:
+##Fitur
+Sistem Manajemen Informasi Sekolah ini dilengkapi dengan fitur-fitur berikut:
 
-    * *Manajemen Siswa:* Sistem ini menyediakan fasilitas untuk mengelola data siswa, termasuk penambahan, penghapusan, pembaruan, dan pencarian data siswa. Data siswa meliputi nama, tanggal lahir, alamat, nomor telepon, dan informasi lainnya.
+* *Manajemen Siswa:* Sistem ini menyediakan fasilitas untuk mengelola data siswa, termasuk penambahan, penghapusan, pembaruan, dan pencarian data siswa. Data siswa meliputi nama, tanggal lahir, alamat, nomor telepon, dan informasi lainnya.
 
-    * *Manajemen Guru:* Sistem ini juga memungkinkan pengelolaan data guru, termasuk penambahan, penghapusan, pembaruan, dan pencarian data guru. Data guru meliputi nama, tanggal lahir, alamat, nomor telepon, mata pelajaran yang diajar, dan informasi lainnya.
+* *Manajemen Guru:* Sistem ini juga memungkinkan pengelolaan data guru, termasuk penambahan, penghapusan, pembaruan, dan pencarian data guru. Data guru meliputi nama, tanggal lahir, alamat, nomor telepon, mata pelajaran yang diajar, dan informasi lainnya.
+* *Manajemen Kelas:* Sistem ini memiliki fitur untuk mengelola data kelas, termasuk penambahan, penghapusan, pembaruan, dan pencarian data kelas. Data kelas meliputi nama kelas, tahun ajaran, wali kelas, daftar siswa yang terdaftar, dan informasi lainnya.
 
-    * *Manajemen Kelas:* Sistem ini memiliki fitur untuk mengelola data kelas, termasuk penambahan, penghapusan, pembaruan, dan pencarian data kelas. Data kelas meliputi nama kelas, tahun ajaran, wali kelas, daftar siswa yang terdaftar, dan informasi lainnya.
-
-    * *Manajemen Jadwal Pelajaran:* Sistem ini memungkinkan pengaturan jadwal pelajaran untuk setiap kelas, termasuk penambahan, penghapusan, pembaruan, dan pencarian jadwal pelajaran. Jadwal pelajaran meliputi informasi tentang mata pelajaran, guru yang mengajar, hari, jam, dan informasi lainnya.
+* *Manajemen Jadwal Pelajaran:* Sistem ini memungkinkan pengaturan jadwal pelajaran untuk setiap kelas, termasuk penambahan, penghapusan, pembaruan, dan pencarian jadwal pelajaran. Jadwal pelajaran meliputi informasi tentang mata pelajaran, guru yang mengajar, hari, jam, dan informasi lainnya.
 
 Otentikasi Pengguna: Sistem ini memiliki sistem otentikasi pengguna yang aman, yang memungkinkan pengguna untuk login dan logout dari akun mereka. Pengguna yang telah login akan memiliki akses terbatas sesuai dengan peran dan izin yang diberikan oleh sistem.
