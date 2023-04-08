@@ -7,3 +7,14 @@
 - make model
 - npx primsa migrate dev (migrate model)
 - npx prisma migrate dev (migrate migration)
+========FRONT END ============================
+- npx crate-react-app {name dir}
+- npm i axios (for api)  react-router-dom (router) swr (data fetching)
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init
+- replace all index.css with {
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+}
+- if warning> go setting>search unknown> ignore css

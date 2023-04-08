@@ -3,7 +3,6 @@ import {
     index,
     show,
     create,
-    store,
     update,
     drop
     
