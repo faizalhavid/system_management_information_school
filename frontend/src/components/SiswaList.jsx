@@ -4,7 +4,7 @@ import axios from 'axios';
 import userSWR from 'swr';
 const SiswaList = () => {
   const fetcher = async () => {
-    const response = await axios.get('http://localhost:5000/siswa');
+    const response  = await axios.get('http://localhost:5000/siswa');
     return response.data;
   };
   const { data } = userSWR('siswa', fetcher);
@@ -15,7 +15,7 @@ const SiswaList = () => {
         <Link to="/add" className="bg-green-700 hover:bg-green-700 border border-slate-200 text-white font-bold py-2 px-4 rounded-lg">
           Add new
         </Link>
-        <div className="relative shadow rounded-lg mt-3">
+        <div className="container relative shadow rounded-lg mt-3">
           <table className="w-full text-sm text-left text-gray-500">
             <thead className="text-xs text-gray-700 uppercase bg-gray-100">
               <tr>

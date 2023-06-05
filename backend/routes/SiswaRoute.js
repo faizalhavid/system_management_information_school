@@ -6,7 +6,7 @@ import {
     update,
     drop
     
-} from "../controllers/SIswaController.js";
+} from "../controllers/SiswaController.js";
 
 const router = express.Router();
 router.get('/siswa',index);
